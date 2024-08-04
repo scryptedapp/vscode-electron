@@ -7,3 +7,7 @@
   * The VS Code `Terminal` area may show an authentication failure and prompt you to log in to the Scrypted Management Console with `npx scrypted login`. You will only need to do this once. You can then relaunch afterwards.
  
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/73924/151676616-c730eb56-26dd-466d-b7f5-25783300b3bc.png">
+
+## Deno
+
+This plugin uses the deno runtime rather than the default node runtime.
