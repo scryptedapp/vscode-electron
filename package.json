@@ -1,7 +1,6 @@
 {
-   "name": "@scrypted/vscode-deno",
+   "name": "@scrypted/vscode-electron",
    "scripts": {
-      "postinstall": "deno types > src/deno.types.d.ts",
       "scrypted-setup-project": "scrypted-setup-project",
       "prescrypted-setup-project": "scrypted-package-json",
       "build": "scrypted-webpack",
@@ -15,9 +14,9 @@
       "scrypted-package-json": "scrypted-package-json"
    },
    "scrypted": {
-      "name": "Deno Light",
+      "name": "Electron Light",
       "type": "Light",
-      "runtime": "deno",
+      "runtime": "electron",
       "interfaces": [
          "OnOff"
       ]

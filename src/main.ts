@@ -7,7 +7,7 @@ console.log('Hello World. This will create a virtual OnOff device.');
 // OnOff is a simple binary switch. See "interfaces"  in package.json
 // to add support for more capabilities, like Brightness or Lock.
 
-class DenoLight extends ScryptedDeviceBase implements OnOff {
+class ElectronLight extends ScryptedDeviceBase implements OnOff {
     constructor(nativeId?: string) {
         super(nativeId);
         this.on = this.on || false;
@@ -29,4 +29,4 @@ class DenoLight extends ScryptedDeviceBase implements OnOff {
     }
 }
 
-export default DenoLight;
+export default ElectronLight;

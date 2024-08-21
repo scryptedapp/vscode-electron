@@ -8,6 +8,6 @@
  
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/73924/151676616-c730eb56-26dd-466d-b7f5-25783300b3bc.png">
 
-## Deno
+## Electron
 
-This plugin uses the deno runtime rather than the default node runtime.
+This plugin uses the Electron runtime rather than the default node runtime.

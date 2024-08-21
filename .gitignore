@@ -3,4 +3,3 @@ out/
 node_modules/
 dist/
 .venv
-src/deno.types.d.ts

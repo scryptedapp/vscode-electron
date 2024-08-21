@@ -10,14 +10,20 @@
             "port": 10081,
             "request": "attach",
             "skipFiles": [
-                "**/plugin-remote-worker.*",
+                "**/plugin-preload.*",
+                "**/plugin-console.*",
                 "<node_internals>/**"
             ],
             "preLaunchTask": "scrypted: deploy+debug",
+            "pathMapping": {
+                "/plugin": "${workspaceFolder}/out",
+            },
             "sourceMaps": true,
-            "localRoot": "${workspaceFolder}/out",
-            "remoteRoot": "/plugin/",
-            "type": "node"
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js",
+                "!**/node_modules/**"
+            ],
+            "type": "chrome",
         }
     ]
 }
